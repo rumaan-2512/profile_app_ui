@@ -71,12 +71,12 @@ class ProfileScreen extends StatelessWidget {
           ),
           SizedBox(height: kSpacingUnit.w * 2),
           Text(
-            'Nicolas Adams',
+            'Syed Rumaan Pasha',
             style: kTitleTextStyle,
           ),
           SizedBox(height: kSpacingUnit.w * 0.5),
           Text(
-            'nicolasadams@gmail.com',
+            'syedrpasha@gmail.com',
             style: kCaptionTextStyle,
           ),
           SizedBox(height: kSpacingUnit.w * 2),
@@ -84,12 +84,12 @@ class ProfileScreen extends StatelessWidget {
             height: kSpacingUnit.w * 4,
             width: kSpacingUnit.w * 20,
             decoration: BoxDecoration(
-              borderRadius: BorderRadius.circular(kSpacingUnit.w * 3),
+              borderRadius: BorderRadius.circular(10),
               color: Theme.of(context).accentColor,
             ),
             child: Center(
               child: Text(
-                'Upgrade to PRO',
+                'Edit Profile',
                 style: kButtonTextStyle,
               ),
             ),
@@ -153,8 +153,12 @@ class ProfileScreen extends StatelessWidget {
                   child: ListView(
                     children: <Widget>[
                       ProfileListItem(
-                        icon: LineAwesomeIcons.user_shield,
-                        text: 'Privacy',
+                        icon: LineAwesomeIcons.phone,
+                        text: '7022623394',
+                      ),
+                      ProfileListItem(
+                        icon: LineAwesomeIcons.home,
+                        text: 'Bengaluru',
                       ),
                       ProfileListItem(
                         icon: LineAwesomeIcons.history,

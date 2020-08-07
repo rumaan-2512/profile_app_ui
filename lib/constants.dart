@@ -6,8 +6,8 @@ const kSpacingUnit = 10;
 const kDarkPrimaryColor = Color(0xFF212121);
 const kDarkSecondaryColor = Color(0xFF373737);
 const kLightPrimaryColor = Color(0xFFFFFFFF);
-const kLightSecondaryColor = Color(0xFFF3F7FB);
-const kAccentColor = Color(0xFFFFC107);
+const kLightSecondaryColor = Color(0xFF98dd32);
+const kAccentColor = Color(0xFF98dd32);
 
 final kTitleTextStyle = TextStyle(
   fontSize: ScreenUtil().setSp(kSpacingUnit.w * 1.7),
